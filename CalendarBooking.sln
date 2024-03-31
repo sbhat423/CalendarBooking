@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarBooking.ConsoleApp", "CalendarBooking.Console\CalendarBooking.ConsoleApp.csproj", "{9D3EBB7A-4014-4D88-AF9A-324CA87DDF28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{727C6F63-8EA1-429B-9232-48DE862C6A9B} = {727C6F63-8EA1-429B-9232-48DE862C6A9B}
+		{D687D94A-2A01-41EA-8D28-5A71B67220E9} = {D687D94A-2A01-41EA-8D28-5A71B67220E9}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarBooking.Business", "CalendarBooking.Business\CalendarBooking.Business.csproj", "{727C6F63-8EA1-429B-9232-48DE862C6A9B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D687D94A-2A01-41EA-8D28-5A71B67220E9} = {D687D94A-2A01-41EA-8D28-5A71B67220E9}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarBooking.Data", "CalendarBooking.Data\CalendarBooking.Data.csproj", "{D687D94A-2A01-41EA-8D28-5A71B67220E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D9710FB-591E-4283-A3F2-AB4BBD59E3B7} = {1D9710FB-591E-4283-A3F2-AB4BBD59E3B7}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarBooking.Models", "CalendarBooking.Models\CalendarBooking.Models.csproj", "{1D9710FB-591E-4283-A3F2-AB4BBD59E3B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarBooking.Tests", "CalendarBooking.Tests\CalendarBooking.Tests.csproj", "{DC8D368A-25DA-468C-ACCE-07243980DCDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D9710FB-591E-4283-A3F2-AB4BBD59E3B7} = {1D9710FB-591E-4283-A3F2-AB4BBD59E3B7}
+		{727C6F63-8EA1-429B-9232-48DE862C6A9B} = {727C6F63-8EA1-429B-9232-48DE862C6A9B}
+		{9D3EBB7A-4014-4D88-AF9A-324CA87DDF28} = {9D3EBB7A-4014-4D88-AF9A-324CA87DDF28}
+		{D687D94A-2A01-41EA-8D28-5A71B67220E9} = {D687D94A-2A01-41EA-8D28-5A71B67220E9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D3EBB7A-4014-4D88-AF9A-324CA87DDF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3EBB7A-4014-4D88-AF9A-324CA87DDF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3EBB7A-4014-4D88-AF9A-324CA87DDF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3EBB7A-4014-4D88-AF9A-324CA87DDF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727C6F63-8EA1-429B-9232-48DE862C6A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727C6F63-8EA1-429B-9232-48DE862C6A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727C6F63-8EA1-429B-9232-48DE862C6A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727C6F63-8EA1-429B-9232-48DE862C6A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D687D94A-2A01-41EA-8D28-5A71B67220E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D687D94A-2A01-41EA-8D28-5A71B67220E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D687D94A-2A01-41EA-8D28-5A71B67220E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D687D94A-2A01-41EA-8D28-5A71B67220E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9710FB-591E-4283-A3F2-AB4BBD59E3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9710FB-591E-4283-A3F2-AB4BBD59E3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9710FB-591E-4283-A3F2-AB4BBD59E3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9710FB-591E-4283-A3F2-AB4BBD59E3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8D368A-25DA-468C-ACCE-07243980DCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8D368A-25DA-468C-ACCE-07243980DCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8D368A-25DA-468C-ACCE-07243980DCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8D368A-25DA-468C-ACCE-07243980DCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DABCE22-7347-4015-AC57-65E9DA9A1794}
+	EndGlobalSection
+EndGlobal
