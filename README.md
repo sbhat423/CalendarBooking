@@ -4,7 +4,7 @@ This is a simple calendar application used to book appointments.
 This project is used to demonstrate the skills in the following areas:
 * Database Development
 * C# Programming
-* Dependency Injection and/or other suitable design patterns
+* Dependency Injection
 * Unit Testing
 * Documentation
 
