@@ -8,6 +8,9 @@ This project is used to demonstrate the skills in the following areas:
 * Unit Testing
 * Documentation
 
+**NOTE:** To run this application set the project **CalendarBooking.ConsoleApp** as the **startup project**
+<br> The connection string is provided in the program.cs file.
+
 Assumptions:
 * All the times are in local timezone
 * The calendar works for the current Year as there is no way to input year based on the requirement
