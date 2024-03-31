@@ -15,6 +15,7 @@ Assumptions:
 * For simplicity timeslots could be booked only in the interval of 30 minutes (for example 09:00 to 09:30, 09:30 to 10:00. But can't book slots from 09:15 to 09:45)
 
 Improvements todo:
+* Additionl flag needs to be added to the Appointment table in the database, to identiy between the slots that are booked by appointment and those that are marked by the KEEP operation.
 * Would like to use Entity Framework Core, but there is an opened bug with the EFCore that can't be used with console app as Microsoft.Extensions.Hosting is used.
   <br>Source: https://github.com/dotnet/efcore/issues/32835
   <br>That is the reason for using SqlClient.
